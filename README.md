@@ -38,7 +38,7 @@ If you are hosting the server script on different machine you need to provide ad
 How to run the script:
 1. Using python terminal change the directory of the terminal to folder containing the server side script 
 2. Run the script using - “python.exe server.py”
-3. 3. The script will automatically start listening on the instructed port with the given address
+3. The script will automatically start listening on the instructed port with the given address
 
 # Running the Main Script
 
