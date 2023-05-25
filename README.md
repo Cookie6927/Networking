@@ -9,7 +9,7 @@ This is usually caused by equipment failure or some other issue but it can also 
 Therefore this type of script can be used to monitor a secure connection between a Client & Server Machine.
 Once the system detects Packet Loss it can then send a request to the server to discontinue its existing session and start a new session which can help prevent not only packet sniffing but also allocate resources with less traffic or in short traffic management. Thus increasing the whole user experience.
 
-#*Current Limitations with Silver Lining*
+# Current Limitations with Silver Lining
 Although this model is now best suited for client server mode only, it can also be used to monitor personal traffic to other sites.
 Usually when a packet sniffing attack is done the hacker has to place himself between server and the client but the flow of packets is very unpredictable to where it can jump next. Therefore the hacker has a best option to place himself between the Internet Service Provider and the Client where the jumps of the packets can be predicted which in most cases has to be done physically/geographically.
 Thus sending packets to any server can solve this issue because the flow of packets remain same till the ISP, which interrupted can trigger Packet Loss Detected Warning
