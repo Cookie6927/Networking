@@ -24,26 +24,28 @@ Python - Download the latest version of python from https://www.python.org/downl
 
 Install the modules given below using the pip installer in terminal
 *Copy-Paste 1 by 1*
+
 “pip install subprocess”
 “pip install socket”
 “pip install tkinter”
 “pip install matplotlib”
  
-#*Running the Server Side Script*
+# Running the Server Side Script
 While testing I’ve done it on the same system so I have used the address as 127.0.0.1 to listen for as it’s self calling.
 
 If you are hosting the server script on different machine you need to provide address and port number accordingly 
 
-*How to run the script*
+How to run the script:
     1. Using python terminal change the directory of the terminal to folder containing the server side script 
     2. Run the script using - “python.exe server.py”
     3. The script will automatically start listening on the instructed port with the given address
 
-#*Running the Main Script*
+# Running the Main Script
+
 Make sure that the address given on the server side is same as the address in main.py 
 Orelse change the variable “self.server_ip” to the desired IP address
 
-*How to run the script*
+How to run the script:
     1. Once you have installed the tkinter module the script will run in application format i.e open in new window with GUI.
     2. Using another terminal, if the server side script is running on same device u need to use new terminal without closing the server side, if the server is          not listening then this application wont get any response
     3. You can open separate terminal and run it using - “python.exe main.py”
