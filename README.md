@@ -3,7 +3,7 @@ Packet Loss Detection in Python
 
 This code is a basic Packet Loss Detection Tool in Python which used Client-Server Model.
 
-#*UseCase*
+# UseCase
 Packet loss occurs when one or more packets of data travelling across a computer network fail to reach their destination.
 This is usually caused by equipment failure or some other issue but it can also happen because of someone with malicious intent listening to the packets or also know as Packet Sniffing Attack
 Therefore this type of script can be used to monitor a secure connection between a Client & Server Machine.
@@ -36,9 +36,9 @@ While testing I’ve done it on the same system so I have used the address as 12
 If you are hosting the server script on different machine you need to provide address and port number accordingly 
 
 How to run the script:
-    1. Using python terminal change the directory of the terminal to folder containing the server side script 
-    2. Run the script using - “python.exe server.py”
-    3. The script will automatically start listening on the instructed port with the given address
+1. Using python terminal change the directory of the terminal to folder containing the server side script 
+2. Run the script using - “python.exe server.py”
+3. 3. The script will automatically start listening on the instructed port with the given address
 
 # Running the Main Script
 
@@ -46,13 +46,13 @@ Make sure that the address given on the server side is same as the address in ma
 Orelse change the variable “self.server_ip” to the desired IP address
 
 How to run the script:
-    1. Once you have installed the tkinter module the script will run in application format i.e open in new window with GUI.
-    2. Using another terminal, if the server side script is running on same device u need to use new terminal without closing the server side, if the server is          not listening then this application wont get any response
-    3. You can open separate terminal and run it using - “python.exe main.py”
-       If using VS Code you can also use *Code Runner Extension* to run the script.
-    4. Input the desired number of packets to be sent, by default it will be 5 but incase if you want to increase or decrease depending on your system
-      & network throughput you can change it too.
-    5. Once the Start button is clicked the application will check for packet loss and also plot a graph of the ping output. The Status window will show if there       is any packet loss present or not.
+1. Once you have installed the tkinter module the script will run in application format i.e open in new window with GUI.
+2. Using another terminal, if the server side script is running on same device u need to use new terminal without closing the server side, if the server is not      listening then this application wont get any response
+3. You can open separate terminal and run it using - “python.exe main.py”
+   If using VS Code you can also use *Code Runner Extension* to run the script.
+4. Input the desired number of packets to be sent, by default it will be 5 but incase if you want to increase or decrease depending on your system
+   & network throughput you can change it too.
+5. Once the Start button is clicked the application will check for packet loss and also plot a graph of the ping output. The Status window will show if there       is any packet loss present or not.
 
 
 
